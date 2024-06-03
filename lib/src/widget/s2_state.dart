@@ -139,7 +139,7 @@ abstract class S2State<T> extends State<SmartSelect<T>> {
             widget.modalConfig.isFullPage != true ? theme.cardColor : null,
         textStyle: widget.modalConfig.isFullPage != true
             ? theme.textTheme.headlineSmall
-            : theme.primaryTextTheme.headline6,
+            : theme.primaryTextTheme.headlineSmall,
         iconTheme:
             widget.modalConfig.isFullPage != true ? theme.iconTheme : null,
         errorStyle: const TextStyle(
